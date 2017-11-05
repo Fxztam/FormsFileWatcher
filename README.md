@@ -1,2 +1,2 @@
 # FormsFileWatcher
-Forms modules for testing of the File Watcher Service.
+Forms modules for testing the File Watcher Service.
