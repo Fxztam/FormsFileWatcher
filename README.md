@@ -6,7 +6,7 @@ with Oracle Forms.
 
 ## Motivation
 
-Interactions of Oracle Forms with other runtimes or virtual machines is sometimes very difficult on the local front-end side. A practical and simple solution is solved here with exchanging data files in temporary watched directories: Forms can send or receive files in defined watched directories. There is a simple *`one line data format`* used: 
+Interactions of Oracle Forms with other runtimes or virtual machines is sometimes very difficult on the local front-end side. A practical and simple solution is realized here with exchanging data files in temporary watched directories: Forms can send or receive files in defined watched directories. <br/>There is a simple *`one line data format`* used: 
 *`Action|Parameter1|Parameter2`* .. 
 so you can apply to parse it with the well known *`d2dlkstr.pll`*.
 
