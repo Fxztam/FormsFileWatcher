@@ -1,5 +1,5 @@
 # FormsFileWatcher => coming soon.
-This is a proof of concept demo for watching of file exchanges in a watched directory:
+This is a proof of concept demo for watching of data file changes in a watched directory:
 - producing and sending (write file)
 - receiving and consuming (read file)
 with Oracle Forms. 
