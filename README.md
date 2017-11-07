@@ -1,15 +1,17 @@
 # FormsFileWatcher
 
-This demo is a proof of concept for waiting of file changes (create, update, delete) in a watched directory:
-- producing and sending (write files)
-- receiving and consuming (read files)
+This is a proof of concept demo for watching of file exchanges in a watched directory:
+- producing and sending (write file)
+- receiving and consuming (read file)
 with Oracle Forms. 
 
 ## Motivation
 
-The interaction of Oracle Forms with other runtimes or virtual machines at the local front-end client side is sometimes difficult. A practical and simple solution is realized with exchanging data files in temporary watched directories here: Forms can send or receive files in defined watched directories. There is a simple data format: Action|Parameter1|Parameter2 .. so you can use the well known *`d2kstr.pll`* for parsing it.
+Interactions of Oracle Forms with other runtimes or virtual machines is sometimes very difficult on the local front-end side. A practical and simple solution is solved here with exchanging data files in temporary watched directories: Forms can send or receive files in defined watched directories. There is a simple *`one line data format`* used: 
+*`Action|Parameter1|Parameter2`* .. 
+so you can apply to parse it with the well known *`d2dlkstr.pll`*.
 
-This Forms solution based on the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC 
+This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC 
 
 >**Note:** 
 >Use the directories that are applied to the *`FormsFileWatcher Demo`* : https://github.com/Fxztam/FormsFileWatcher
@@ -52,39 +54,33 @@ END W_B_P_BT_LOOP;
    END;
 ```   
 
-- Sending files for watching e.g. in C# - only one statement to sending a watcher event to Oracle Forms:
+- Sending files for watching e.g. in C# to Oracle Forms:
 
 ```Csharp
-using System;
-
-namespace FileWrite
+static void Main(string[] args)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // --- sending a action from C# to Oracle Forms       
-            string ACTION2FORMS = "C#2FORMS|Hello OracleForms|P2";
-            System.IO.File.WriteAllText(@"C:\Users\fmatz\AppData\Local\Temp\formswatch\forms\Action2Forms.watch", ACTION2FORMS);
+    // --- sending a action from C# to Oracle Forms ---      
+    string ACTION2FORMS = "C#2FORMS|Hello OracleForms|P2";
+    System.IO.File.WriteAllText( 
+        @"C:\Users\fmatz\AppData\Local\Temp\formswatch\forms\Action2Forms.watch",
+        ACTION2FORMS );
 
-            // .. consuming the action ..
-            System.Threading.Thread.Sleep(2000);
-
-            // --- sending 'End of Watching..' from C# to Oracle Forms  
-            string[] EOWATCHING = { "Watcher finished from C# ", DateTime.Now.ToString(), "FINISHED." };
-            System.IO.File.WriteAllLines(@"C:\Users\fmatz\AppData\Local\Temp\formswatch\forms\EOwatchService.watch", EOWATCHING);
-
-            // console end.
-            Console.WriteLine("\n--- EO Watching. <enter> ---");
-            Console.ReadKey();
-        }
-    }
+    // --- sending 'End of Watching..' from C# to Oracle Forms --- 
+    string[] EOWATCHING = { "Watcher finished from C# ", 
+                            DateTime.Now.ToString(), 
+                            "FINISHED." };
+    System.IO.File.WriteAllLines(    
+        @"C:\Users\fmatz\AppData\Local\Temp\formswatch\forms\EOwatchService.watch", EOWATCHING );
 }
 ```
 
 ## Getting Started
 
+The Forms module *`chk_fwatchself`* includes a self-checking ping-pong loop: received files will send back inclusive loop counting.
+
 ### Architecture 
+
+The Forms module includes two PJC's called *`.._SEND`* and *`.._RECEIVE`*.
 
 <img src="http://www.fmatz.com/Flow-2.jpg">
 
@@ -95,7 +91,7 @@ namespace FileWrite
 - Start the *`FormsFileWatcher Demo`* : https://github.com/Fxztam/FormsFileWatcher or using a file editor for modifying
 
 >**Note:**
->You can also simulate file changes by editing in the watcher directory defined in the *`IronWatcherForms.py`*
+>You can also simulate file changes by editing in the watcher directories *`..\formswatch\forms`* or *`..\formswatch\forms2`*.
 
 
 ### Installing
