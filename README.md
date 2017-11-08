@@ -5,7 +5,7 @@ This is a Oracle Forms proof-of-concept demo for exchanging data files in a watc
 
 ## Motivation
 
-Interactions of Oracle Forms with other runtimes or virtual machines are sometimes difficult on the local front-end side. <br/>A practical and simple solution is realized with exchanging data files in temporary watched directories. <br/>  Forms can send or receive files in defined watched directories, so there is a simple *`One Line Data Format`* for interacting used: *`Action|Parameter1|Parameter2`* .. .
+Interactions of Oracle Forms with other runtimes or virtual machines are sometimes difficult on the local front-end side. <br/>A practical and simple solution is realized with exchanging data files in temporary watched directories. <br/>  Forms can send or receive files in watched directories, so there is a simple *`One Line Data Format`* for interacting used: *`Action|Parameter1|Parameter2`* .. .
   You can apply to parse this simple format with the *`d2dlkstr2.pll`* library, modified from the original d2dlkstr.pll.
 
 This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC .
