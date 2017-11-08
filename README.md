@@ -9,3 +9,5 @@ Interactions of Oracle Forms with other runtimes or virtual machines are sometim
   You can apply to parse this simple format with the *`d2dlkstr2.pll`* library, modified from the original d2dlkstr.pll.
 
 This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC .
+
+## Description is in progress.
