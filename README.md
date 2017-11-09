@@ -19,4 +19,4 @@ you can test:
   2. *"Loop"*  ( ping-pong testing loop)
   3. *"Stop"* .
 
-### Enjoy.
+Enjoy it.
