@@ -19,8 +19,10 @@ you can test:
   2. *"Loop"*  ( ping-pong testing loop)
   3. *"Stop"* .
 
+<img src="http://www.fmatz.com/WATCH-Final.gif">
+
+
 Enjoy it.
 
-<img src="http://www.fmatz.com/WATCH-Final.gif">
 
  
