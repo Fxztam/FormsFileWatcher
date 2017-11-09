@@ -1,4 +1,4 @@
-# FormsFileWatcher => coming soon.
+# FormsFileWatcher
 This is a Oracle Forms Proof-of-Concept demo for exchanging data files in a watched directory:
 - producing and sending (write file)
 - receiving and consuming (read file) .
@@ -10,4 +10,11 @@ Interactions of Oracle Forms with other runtimes or virtual machines are sometim
 
 This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC .
 
-#### Description is in progress.
+## Running
+
+After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Security Authority
+you can test:
+
+  1. Button <Start>
+  2. Button <Loop>  ( ping-pong checking loop)
+  3. Button <Stop> .
