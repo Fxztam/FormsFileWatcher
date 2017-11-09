@@ -16,5 +16,5 @@ After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Secu
 you can test:
 
   1. *"Start"*
-  2. *"Loop"*  ( ping-pong checking loop)
+  2. *"Loop"*  ( ping-pong testing loop)
   3. *"Stop"* .
