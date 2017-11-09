@@ -15,6 +15,6 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Security Authority
 you can test:
 
-  1. Button <Start>
-  2. Button <Loop>  ( ping-pong checking loop)
-  3. Button <Stop> .
+  1. *"Start"*
+  2. *"Loop"*  ( ping-pong checking loop)
+  3. *"Stop"* .
