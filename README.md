@@ -10,6 +10,8 @@ Interactions of Oracle Forms with other runtimes or virtual machines are sometim
 
 This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC .
 
+<img src="http://www.fmatz.com/WATCH-Final.gif" />
+
 ## Running
 
 After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Security Authority
@@ -19,7 +21,7 @@ you can test:
   2. *"Loop"*  ( ping-pong testing loop)
   3. *"Stop"* .
 
-<img src="http://www.fmatz.com/WATCH-Final.gif" />
+
 
 Enjoy it.
 
