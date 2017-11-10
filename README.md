@@ -10,7 +10,7 @@ Interactions of Oracle Forms with other runtimes or virtual machines are sometim
 
 This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fxztam/FormsFileWatcherPJC .
 
-<img src="http://www.fmatz.com/IronWatcher.gif">
+<img src="http://www.fmatz.com/FINAL-watch-2.gif">
 
 ## Running
 
@@ -20,8 +20,6 @@ you can test:
   1. *"Start"*
   2. *"Loop"*  ( ping-pong testing loop)
   3. *"Stop"* .
-
-
 
 Enjoy it.
 
