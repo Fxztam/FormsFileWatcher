@@ -19,7 +19,7 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 ## Modul chk_fwatcherself.fmb
 
-<img src="http://www.fmatz.com/Flow-2.gif">
+<img src="http://www.fmatz.com/Flow-2.jpg">
 
 ## Running
 
