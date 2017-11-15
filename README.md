@@ -17,6 +17,8 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 - C# sending demo:
 
+<img src="http://www.fmatz.com/chsarp-finished.png">
+
 ## Modul chk_fwatcherself.fmb
 
 - Forms module view
