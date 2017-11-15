@@ -30,7 +30,8 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 ## Modul FileWatcherSend.cs
 
-This C# module 
+This C# module https://github.com/Fxztam/FormsFileWatcher/blob/master/FileWatcherSend.cs sends *`Action2Forms`* and *`EOwatchSercice`*;
+e.g.: 
 <img src="http://www.fmatz.com/csharp-finished.png">
 
 ## Running
