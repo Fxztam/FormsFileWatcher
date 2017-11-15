@@ -15,8 +15,8 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 - Ping-pong testing loop:
 <img src="http://www.fmatz.com/FINAL-watch-2.gif">
 
-- C# sending demo FileWatcherSend.cs
-
+- C# sending demo *"FileWatcherSend.cs"* 
+<img src="http://www.fmatz.com/CsharpToForms.jpg">
 
 ## Modul chk_fwatcherself.fmb
 
