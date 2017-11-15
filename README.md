@@ -24,7 +24,7 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 <img src="http://www.fmatz.com/chk_fwatchself.png">
 
-- Flow diagram 
+- Sequence diagram 
 
 <img src="http://www.fmatz.com/FLOW-final.png">
 
@@ -49,6 +49,10 @@ After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Cert
    1. *"Start"*
    2. *"Run FileWatcherSend.cs"*
    3. *"Stop"* .
+
+## Status
+
+Proof of Concept
 
 Enjoy it.
 
