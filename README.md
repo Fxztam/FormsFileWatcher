@@ -36,7 +36,13 @@ This C# module https://github.com/Fxztam/FormsFileWatcher/blob/master/FileWatche
 
 ## Running
 
-After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file and re-start the Forms Weblogic Server you can test:
+This Oracle Forms module was tested on:
+- Windows 10
+- IE 11 
+- Java 8_151 32 Bit (11.151.2.12 x86)
+- Oracle Forms 12.2.1.2.0 .
+
+After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file and re-starting the Forms Weblogic Server you can test:
 
 - Ping-pong testing loop:
 
