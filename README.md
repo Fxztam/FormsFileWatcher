@@ -20,9 +20,13 @@ After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Cert
 
   1. *"Start"*
   2. *"Loop"*  
-  3. *"Stop"* .
+  3. *"Stop"* 
 
 - C# demo:
+
+   1. *"Start"*
+   2. *"Run "*
+   3. *"Stop"* .
 
 Enjoy it.
 
