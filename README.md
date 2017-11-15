@@ -26,7 +26,7 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 - Flow diagram 
 
-<img src="http://www.fmatz.com/Flow-2.jpg">
+<img src="http://www.fmatz.com/FLOW-final.png">
 
 ## Modul FileWatcherSend.cs
 
