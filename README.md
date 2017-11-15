@@ -17,6 +17,10 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 - C# sending demo:
 
+## Modul chk_fwatcherself.fmb
+
+<img src="http://www.fmatz.com/Flow-2.gif">
+
 ## Running
 
 After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file and re-start the Forms Weblogic Server you can test:
