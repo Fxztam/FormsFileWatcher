@@ -14,7 +14,8 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 ## Running
 
-After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file and re-start the Forms Weblogic Server you can test:
+>- Ping-pong Loop
+>After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file >and re-start the Forms Weblogic Server you can test:
 
   1. *"Start"*
   2. *"Loop"*  ( ping-pong testing loop)
