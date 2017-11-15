@@ -12,22 +12,22 @@ This Forms solution includes the *`FormsFileWatcherPJC`* : https://github.com/Fx
 
 ## Examples
 
-- Ping-pong testing loop:
+- ###Ping-pong testing loop:
 <img src="http://www.fmatz.com/FINAL-watch-2.gif">
 
-- C# sending demo:
+- ###C# sending demo:
 
 ## Running
 
 After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Certificate Authority, deploying this certificated JAR file and re-start the Forms Weblogic Server you can test:
 
-- Ping-pong testing loop:
+- ###Ping-pong testing loop:
 
   1. *"Start"*
   2. *"Loop"*  
   3. *"Stop"* 
 
-- C# sending demo:
+- ###C# sending demo:
 
    1. *"Start"*
    2. *"Run FileWatcherSend.cs"*
