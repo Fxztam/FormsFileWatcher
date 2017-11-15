@@ -25,7 +25,7 @@ After signing the FormsFileWatcherPJC.jar with a certificate from a Trusted Cert
 - C# demo:
 
    1. *"Start"*
-   2. *"Run "*
+   2. *"Run FileWatcherSend.cs"*
    3. *"Stop"* .
 
 Enjoy it.
